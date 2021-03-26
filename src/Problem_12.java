@@ -12,7 +12,6 @@ public class Problem_12 {
             {
                 for(int j = 0; j < 6; j++)
                 {
-                    System.out.format("Enter element a[%d][%d]: " ,i , j);
                     a[i][j] = scanner.nextInt();
 
                     if (i > 1 && j > 1)
